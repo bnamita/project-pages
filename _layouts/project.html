@@ -2,10 +2,15 @@
 layout: page
 ---
 
-
-<span class="project-intro">
-    Some text {{ page }}
+<div>
+    <span>
+    Some page text {{ page }}
 </span>
+    <span class="project-intro">
+    Some text {{ page.intro }}
+</span>
+</div>
+
 <br>
 {% for post in site.posts %}
 {% if post.category == page.category %}
