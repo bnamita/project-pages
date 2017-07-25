@@ -1,6 +1,12 @@
 ---
 layout: page
 ---
+
+
+<span class="project-intro">
+    {{ page.content }}
+</span>
+<br>
 {% for post in site.posts %}
 {% if post.category == page.category %}
 <div class="post-preview">
