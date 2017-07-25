@@ -56,15 +56,15 @@ prose:
           element: "text"
           label: "Description"
           value: ""
-      - name: "category"
-        field:
-          element: "text"
-          label: "Project"
-          value: ""
       - name: "content"
         field:
           element: "text"
           label: "Project Content"
+          value: ""
+      - name: "category"
+        field:
+          element: "text"
+          label: "Project"
           value: ""
     _posts:
       - name: "subtitle"
