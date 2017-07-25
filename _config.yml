@@ -60,7 +60,12 @@ prose:
         field:
           element: "text"
           label: "Project"
-          value: ""           
+          value: ""
+      - name: "content"
+        field:
+          element: "text"
+          label: "Project Content"
+          value: ""
     _posts:
       - name: "subtitle"
         field:
